@@ -103,9 +103,4 @@ For support, contributions, or collaboration, feel free to connect with us on Gi
 
 This project is open-source and available under the [MIT License](LICENSE).
 
-```
-
 ---
-
-Would you like me to generate a presentation or visuals (e.g., a logo, architecture diagram, or UI mockup)?
-```
