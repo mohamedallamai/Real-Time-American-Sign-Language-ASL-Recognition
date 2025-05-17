@@ -1,6 +1,6 @@
-# 🤟 Real-Time American Sign Language (ASL) Recognition App
+# 🤟 Real-Time American Word Sign Language (AWSL) Recognition and Translation App
 
-A real-time hand gesture recognition app built using **Streamlit**, **TensorFlow**, **OpenCV**, and **MediaPipe**, designed to recognize 12 common American Sign Language (ASL) signs from webcam or uploaded images.
+A real-time hand gesture recognition app built using **TensorFlow**, **OpenCV**, **MediaPipe**, and **Streamlit**, designed to recognize 52 common American Word Signs Language (AWSL) signs from webcam or uploaded images.
 
 ---
 
@@ -26,16 +26,10 @@ A real-time hand gesture recognition app built using **Streamlit**, **TensorFlow
 
 ---
 
-## 🧠 Recognized ASL Classes (12)
+## 🧠 Recognized ASL Classes (52)
 
 ```text
-[
-            "age", "book", "call", "car", "day", "egypt", "english", "enjoy", "every", "excuse",
-            "football", "forget", "fun", "good", "hate", "have", "hello", "help", "holiday", "I",
-            "iam", "love", "meet", "month", "morning", "my", "name", "nice", "no", "not", "number", 
-            "ok", "picture", "play", "read", "ride", "run", "sorry", "speak", "sport", "take", "thanks",
-            "time", "today", "understand", "what", "when", "where", "year", "yes", "you", "your"
-]
+["age", "book", "call", "car", "day", "egypt", "english", "enjoy", "every", "excuse", "football", "forget", "fun", "good", "hate", "have", "hello", "help", "holiday", "I", "iam", "love", "meet", "month", "morning", "my", "name", "nice", "no", "not", "number", "ok", "picture", "play", "read", "ride", "run", "sorry", "speak", "sport", "take", "thanks", "time", "today", "understand", "what", "when", "where", "year", "yes", "you", "your" ]
 ````
 
 ---
@@ -44,7 +38,7 @@ A real-time hand gesture recognition app built using **Streamlit**, **TensorFlow
 
 ### ✅ Prerequisites
 
-Ensure Python 3.8–3.10 is installed. Then install dependencies:
+Ensure Python 3.11.10 is installed. Then install dependencies:
 
 ```bash
 pip install -r requirements.txt
@@ -53,7 +47,7 @@ pip install -r requirements.txt
 ### 🔧 Run the App
 
 ```bash
-streamlit run app-Aug.py
+streamlit run app.py
 ```
 
 > ⚠️ If running in GitHub Codespaces or a remote container:
@@ -67,10 +61,9 @@ streamlit run app-Aug.py
 ## 📂 Project Structure
 
 ```
-├── app-Aug.py                   # Streamlit application file
+├── app.py                   # Streamlit application file
 ├── requirements.txt             # Required Python packages
-├── sign_language_model_AUG_12_TF_2.15.0.h5  # Pretrained model (optional)
-└── sign_language_model_AUG_12.h5           # Fallback model weights
+├── sign_language_model_52_Word_TF_2.15.0.h5  # model
 ```
 
 ---
@@ -81,15 +74,6 @@ streamlit run app-Aug.py
 * **Modeling**: TensorFlow `v2.15.0`, Keras
 * **Vision**: OpenCV `v4.9.0`, MediaPipe `v0.10.21`
 * **Utilities**: NumPy, Pillow, Logging
-
----
-
-## 📌 Future Improvements
-
-* 🔡 Add more ASL classes
-* 🧾 Display sign descriptions and learning resources
-* 🧠 Fine-tune on larger datasets for improved accuracy
-* 📱 Create a mobile/web deployable version
 
 ---
 
