@@ -83,7 +83,7 @@ Developed by:
 
 * [**Mohammed Allam**](https://github.com/mohamedallamai)
 * [**Hassan Anwar**](https://github.com/hassancodeanwar)
-* [**Ahmed El-Sharkawy**](https://github.com/Ahmed-el-sharkawy)
+* [**Ahmed El-Sharkawy**](https://github.com/Ahmed-Yasser-El-Sharkawy)
 
 For support, contributions, or collaboration, feel free to connect with us on GitHub.
 
