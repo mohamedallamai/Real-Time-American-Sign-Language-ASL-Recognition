@@ -29,7 +29,13 @@ A real-time hand gesture recognition app built using **Streamlit**, **TensorFlow
 ## 🧠 Recognized ASL Classes (12)
 
 ```text
-["Excuseme", "Far", "Fare", "Hello", "Here", "Left", "Near", "Right", "Taxi", "Thanks", "There", "Where"]
+[
+            "age", "book", "call", "car", "day", "egypt", "english", "enjoy", "every", "excuse",
+            "football", "forget", "fun", "good", "hate", "have", "hello", "help", "holiday", "I",
+            "iam", "love", "meet", "month", "morning", "my", "name", "nice", "no", "not", "number", 
+            "ok", "picture", "play", "read", "ride", "run", "sorry", "speak", "sport", "take", "thanks",
+            "time", "today", "understand", "what", "when", "where", "year", "yes", "you", "your"
+]
 ````
 
 ---
