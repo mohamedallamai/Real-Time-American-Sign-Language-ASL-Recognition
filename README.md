@@ -1,7 +1,7 @@
 # 🤟 Real-Time American Word Sign Language (AWSL) Recognition and Translation App
 
 A real-time hand gesture recognition app built using **TensorFlow**, **OpenCV**, **MediaPipe**, and **Streamlit**, designed to recognize 52 common American Word Signs Language (AWSL) signs from webcam or uploaded images.
-
+![cover](https://imgs.search.brave.com/Dosdj9KniIvQvD1YJGN4CAoF39WFlDFfYzSEKSYDg74/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly90b3dh/cmRzZGF0YXNjaWVu/Y2UuY29tL3dwLWNv/bnRlbnQvdXBsb2Fk/cy8yMDIyLzA4LzBJ/di1HSXhCNkt3SnBa/UGFRLmpwZw)
 ---
 
 ## 🚀 Features
